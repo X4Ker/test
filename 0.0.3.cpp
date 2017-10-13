@@ -37,6 +37,7 @@ int main() {
 	for (int i = 0; i < 20; i++) {
 		cout << c[i] <<' ';
 	}
-	
+	cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	cin.get();
 	return 0;
 }
