@@ -16,7 +16,7 @@ int main() {
 			}
 		}
 	}
-  cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	cin.get();
 	return 0;
 }
